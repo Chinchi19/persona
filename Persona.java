@@ -9,7 +9,7 @@ public class Persona {
     private String LoL;
 
     private String universidad;
-
+    private String codigoPostal;
     public String getNombre(){
         return nombre;
     }
@@ -33,6 +33,7 @@ public class Persona {
     public String getNacionalidad(){
         return nacionalidad;
     }
+    public String getCodigoPostal(){return codigoPostal;}
 
     public void setNombre(String nom){
         this.nombre = nom;
@@ -54,6 +55,9 @@ public class Persona {
     }
     public void setLoL(String LoL){
         this.LoL = LoL;
+    }
+    public void setCodigoPostal(String codigoPostal){
+        this.codigoPostal = codigoPostal;
     }
 
     public void setNacionalidad(){
