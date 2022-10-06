@@ -1,5 +1,3 @@
-package Persona3;
-
 public class Persona {
     // Poniendo un comentari
     private String nombre;
@@ -19,8 +17,8 @@ public class Persona {
 
     private String universidad;
     private String codigoPostal;
-    private String universidad;
 
+    private String estudios;
 
     public String getColorOjos(){
         return colorOjos;
@@ -53,6 +51,7 @@ public class Persona {
         return nacionalidad;
     }
     public String getCodigoPostal(){return codigoPostal;}
+    public String getEstudios(){return estudios;}
 
     public void setcolorOjos(String ojos){
         this.colorOjos = ojos;
@@ -93,7 +92,9 @@ public class Persona {
     public void setApellidos(String apel){
         this.apellidos= apel;
     }
-
+    public void setestudios(String estudios){
+        this.estudios= estudios;
+    }
     public void setDnisinletra(int dni){
         this.dnisinletra = dni;
     }
@@ -115,10 +116,6 @@ public class Persona {
     }
     public void setCodigoPostal(String codigoPostal){
         this.codigoPostal = codigoPostal;
-    }
-
-    public void setLoL(String LoL){
-        this.LoL = LoL;
     }
 
     public void setNacionalidad(){
@@ -156,5 +153,4 @@ public class Persona {
     public void setSignozodiaco(String signozodiaco){
         this.signozodiaco = signozodiaco;
     }
-
 }
