@@ -13,6 +13,12 @@ public class Persona {
 
     private String universidad;
 
+    private String piloto;
+
+    public String getPiloto() {
+        return piloto;
+    }
+
     public String getNombre(){
         return nombre;
     }
@@ -43,6 +49,10 @@ public class Persona {
 
     public String getNacionalidad(){
         return nacionalidad;
+    }
+
+    public void setPiloto(String piloto) {
+        this.piloto = piloto;
     }
 
     public void setNombre(String nom){
