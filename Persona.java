@@ -1,5 +1,5 @@
 public class Persona {
-    // Poniendo un comentari
+    // Poniendo un comentario
     private String nombre;
     private String apellidos;
     private int dnisinletra;
@@ -7,17 +7,16 @@ public class Persona {
     private String comidaFavorita;
     private String nacionalidad;
     private String colorOjos;
-
     private int hijos;
     private int telefono;
     private String signozodiaco;
     private int peso;
     private int numeroSeguridadSocial;
     private string estado_civil;
-
+    private String genero;
+    private String LoL;
     private String universidad;
     private String codigoPostal;
-
     private String estudios;
 
     public String getColorOjos(){
@@ -34,14 +33,17 @@ public class Persona {
     public int getDnisinletra(){
         return dnisinletra;
     }
+    public int getEdad(){
+        return edad;
+    }
+    public string getcomidaFavorita(){
+        return dniSinLetra;
+    }
     public int getNumeroSeguridadSocial(){
         return numeroSeguridadSocial;
     }
     public string getEstado_civil(){
         return estado_civil;
-    }
-    public string getcomidaFavorita(){
-        return dniSinLetra;
     }
 
     public int getEdad(){
@@ -50,11 +52,14 @@ public class Persona {
     public String getNacionalidad(){
         return nacionalidad;
     }
-    public String getCodigoPostal(){return codigoPostal;}
-    public String getEstudios(){return estudios;}
-
-    public void setcolorOjos(String ojos){
-        this.colorOjos = ojos;
+    public String getCodigoPostal(){
+        return codigoPostal;
+    }
+    public String getEstudios(){
+        return estudios;
+    }
+    public String getGenero(){
+        return genero;
     }
 
     public int getHijos() {
@@ -75,8 +80,17 @@ public class Persona {
 
     public String getCodPostal(){
         return cp;
+    public String getGenero(){
+        return genero;
     }
 
+    public String getNacionalidad(){
+        return nacionalidad;
+    }
+
+    public void setcolorOjos(String ojos){
+        this.colorOjos = ojos;
+    }
     public void setNombre(String nom){
         this.nombre = nom;
     }
@@ -118,6 +132,9 @@ public class Persona {
         this.codigoPostal = codigoPostal;
     }
 
+    public void setGenero(String genero){
+        this.genero = genero;
+    }
     public void setNacionalidad(){
         this.nacionalidad = nacionalidad;
     }
@@ -153,4 +170,5 @@ public class Persona {
     public void setSignozodiaco(String signozodiaco){
         this.signozodiaco = signozodiaco;
     }
+
 }
